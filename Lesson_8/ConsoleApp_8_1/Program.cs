@@ -112,7 +112,7 @@ void Count(int[,] matrix, int rightRange)
 int rows = 3;
 int columns = 5;
 int leftRange = 0;
-int rightRange = 9;
+int rightRange = 10;
 
 int[,] array = GetRandomMatrix(rows, columns, leftRange, rightRange);
 Console.WriteLine("Исходный массив");

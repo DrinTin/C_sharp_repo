@@ -31,7 +31,7 @@ int ROWS = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число столбцов");
 int COLUMNS = Convert.ToInt32(Console.ReadLine());
 int LEFT_RANGE = 0;
-int RIGHT_RANGE = 10;
+int RIGHT_RANGE = 11;
 
 int [,] array = GetRandomMatrix(ROWS, COLUMNS, LEFT_RANGE, RIGHT_RANGE);
 PrintMatrix (array);
